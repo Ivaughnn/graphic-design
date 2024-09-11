@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphic Design Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Graphic Design Portfolio</h1>
+    </div>
+</header>
+
+<section class="gallery">
+    <div class="container">
+        <div class="item">
+            <img src="./assets/images/3DPicture.JPG" alt="3D bonfire image" onclick="openLightbox('img1')">
+        </div>
+        <div class="item">
+            <img src="./assets/images/coke ads.jpg" alt="coke quotes" onclick="openLightbox('img2')">
+        </div>
+        <div class="item">
+            <img src="./assets/images/Eli.jpeg" alt="invitation" onclick="openLightbox('img3')">
+        </div>
+        <div class="item">
+            <img src="./assets/images/half-face copy.jpg" alt="half-face quote" onclick="openLightbox('img4')">
+        </div>
+        <div class="item">
+            <img src="./assets/images/Owu Holloween.jpg" alt="OWU Holloween" onclick="openLightbox('img5')">
+        </div>
+        <div class="item">
+            <img src="./assets/images/OWU.jpg" alt="Axie Guide" onclick="openLightbox('img6')">
+        </div>
+    </div>
+</section>
+
+<!-- Lightbox Modals -->
+<div id="img1" class="lightbox">
+    <span class="close" onclick="closeLightbox()">&times;</span>
+    <img src="./assets/images/3DPicture.JPG" alt="3D bonfire image">
+</div>
+
+<div id="img2" class="lightbox">
+    <span class="close" onclick="closeLightbox()">&times;</span>
+    <img src="./assets/images/coke ads.jpg" alt="coke quotes">
+</div>
+
+<div id="img3" class="lightbox">
+    <span class="close" onclick="closeLightbox()">&times;</span>
+    <img src="./assets/images/Eli.jpeg" alt="invitation">
+</div>
+
+<div id="img4" class="lightbox">
+    <span class="close" onclick="closeLightbox()">&times;</span>
+    <img src="./assets/images/half-face copy.jpg" alt="half-face quote">
+</div>
+
+<div id="img5" class="lightbox">
+    <span class="close" onclick="closeLightbox()">&times;</span>
+    <img src="./assets/images/Owu Holloween.jpg" alt="OWU Holloween">
+</div>
+
+<div id="img6" class="lightbox">
+    <span class="close" onclick="closeLightbox()">&times;</span>
+    <img src="./assets/images/OWU.jpg" alt="Axie Guide">
+</div>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Ivon Vaughn Quinto. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="./assets/js/script.js"></script>
+
+</body>
+</html>
